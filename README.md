@@ -1,0 +1,1 @@
+# Python prosjekter. Hver med sin egen folder
