@@ -13,5 +13,9 @@ def sjekk_gyldig_verdi(verdi):
     except ValueError as e:
         print(f"Feil: {e}") 
         
-sjekk_gyldig_verdi(-5)  # Dette vil kaste en exception og skrive ut feilmeldingen.s 
+def main():
+    
+    verdi = float(input("Skriv inn en verdi mellom 0 og 100: "))
+    sjekk_gyldig_verdi(verdi)  # Dette vil kaste en exception og skrive ut feilmeldingen.
 
+main()
