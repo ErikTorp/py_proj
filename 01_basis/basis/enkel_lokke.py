@@ -14,11 +14,7 @@ def main() :
 
     RENTE_FOT = float(input("Rentefot: "))
     balanse = float(input("Angi sparebeløp: "))
-<<<<<<< Updated upstream
-=======
     
->>>>>>> Stashed changes
-
     aar = doble_tid(0, balanse, RENTE_FOT)
 
     print("Det tar", aar, "år å doble investeringen.")
